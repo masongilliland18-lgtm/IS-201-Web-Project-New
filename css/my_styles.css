@@ -1,0 +1,11 @@
+.bg-primary {
+    background-color: rgb(48, 66, 147) !important;
+}
+
+.text-primary {
+    color: rgb(48, 66, 147) !important;
+}
+
+.subheading {
+    font-style: italic !important;
+}

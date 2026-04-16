@@ -1,0 +1,124 @@
+body {
+    color: #2c2c2c;
+    background-color: #f0ede8;
+    font-family: 'DM Sans', Georgia, sans-serif;
+    line-height: 1.75;
+}
+
+/* Headings — Playfair Display for h1/h2, DM Sans for h3 */
+h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #1b3a4b;  /* deep teal */
+}
+
+h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #2d6a4f;  /* forest green */
+}
+
+h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #6d3b47;  /* wine/burgundy */
+}
+
+/* Paragraphs — readable dark charcoal */
+p {
+    color: #2c2c2c;
+    font-size: 1rem;
+    line-height: 1.75;
+    margin-bottom: 1rem;
+}
+
+/* Code — monospace with tinted background */
+code {
+    font-family: 'DM Mono', 'Courier New', monospace;
+    background-color: #e8e4df;
+    color: #6d3b47;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+/* Special text — soft violet + Playfair italic */
+.special_text {
+    color: #9b5de5;
+    font-style: italic;
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: 0.02em;
+}
+
+/* Bold callout — Playfair with forest green left border */
+.bold_important_text {
+    font-size: 1.05rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', Georgia, serif;
+    background-color: #ffffff;
+    border-left: 3px solid #2d6a4f;
+    padding: 0.5rem 1rem;
+   
+    color: #1b3a4b;
+    
+}
+
+/* Links — blue with light underline */
+a {
+    color: #1b6ca8;
+    text-decoration: none;
+    border-bottom: 1.5px solid #93c5fd;
+    font-weight: 500;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Hover — warm coral */
+a:hover {
+    color: #d85a30;
+    border-bottom-color: #d85a30;
+}
+
+/* Visited — forest green */
+a:visited {
+    color: #2d6a4f;
+    border-bottom-color: #74c69d;
+}
+
+
+/* ── DIV 1: page wrapper ───────────────────────────────
+   Centers all content and limits the max reading width  */
+#page_wrapper {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+/* ── DIV 2: header/hero banner ────────────────────────
+   Dark teal band at the top of the page               */
+#header {
+    background-color: #1b3a4b;
+    color: #f0ede8;
+    padding: 2.5rem 2rem;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+}
+
+#header h1 {
+    color: #f0ede8;
+    margin: 0;
+}
+
+/* ── DIV 3: content card ──────────────────────────────
+   White card to group a section of body content       */
+.content_card {
+    background-color: #ffffff;
+    border: 1px solid #d8d3cc;
+    border-radius: 6px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+}
